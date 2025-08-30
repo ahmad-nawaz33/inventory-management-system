@@ -40,7 +40,7 @@ public class ERP extends JFrame {
 
                 if (name.equalsIgnoreCase("kat") && password.equals("123")) {
                     frame.dispose();
-                    new OptionsWindow(); 
+                    new OptionsWindow();
                 } else {
                     outputLabel.setText("Invalid Credentials");
                 }
