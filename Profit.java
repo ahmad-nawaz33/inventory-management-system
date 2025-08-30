@@ -22,7 +22,7 @@ public class Profit extends JFrame {
 
         DefaultTableModel model = new DefaultTableModel(data, cols);
         JTable table = new JTable(model);
-        table.setBackground(Color.WHITE);  // Optional for consistency
+        table.setBackground(Color.WHITE);  // Optional for consistencY
         JScrollPane scroll = new JScrollPane(table);
 
         // Row sorter

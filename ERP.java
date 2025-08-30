@@ -11,7 +11,7 @@ public class ERP extends JFrame {
         frame.setLayout(new FlowLayout());
 
         // Background color
-        Color lightBackground = new Color(245, 245, 220); // Linen
+        Color lightBackground = new Color(245, 245, 220); 
         frame.getContentPane().setBackground(lightBackground);
 
         // Button color
@@ -40,7 +40,7 @@ public class ERP extends JFrame {
 
                 if (name.equalsIgnoreCase("kat") && password.equals("123")) {
                     frame.dispose();
-                    new OptionsWindow(); // Assuming OptionsWindow exists
+                    new OptionsWindow(); 
                 } else {
                     outputLabel.setText("Invalid Credentials");
                 }

@@ -88,7 +88,7 @@ public class Suppliers extends JFrame {
         back.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
                 dispose();
-                new Purchase(); // Ensure Purchase class exists
+                new Purchase();
             }
         });
 
