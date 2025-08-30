@@ -54,7 +54,6 @@ public class ERP extends JFrame {
         frame.add(passwordField);
         frame.add(button);
         frame.add(outputLabel);
-
         // Show frame
         frame.setVisible(true);
     }
